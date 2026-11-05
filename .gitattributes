@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# The WebGL build is intentionally stored without Git LFS.
+*.gz binary
+*.wasm.gz binary
+*.part-* binary
